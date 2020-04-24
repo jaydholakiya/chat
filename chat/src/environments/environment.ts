@@ -6,14 +6,7 @@ export const environment = {
   production : false,
   url : "http://localhost:3000",
   firebase : {
-    apiKey: "AIzaSyDXmj62ZGfJmcyJwdZZiapteh3-zbut8TA",
-    authDomain: "chat-application-ff7df.firebaseapp.com",
-    databaseURL: "https://chat-application-ff7df.firebaseio.com",
-    projectId: "chat-application-ff7df",
-    storageBucket: "chat-application-ff7df.appspot.com",
-    messagingSenderId: "90487609570",
-    appId: "1:90487609570:web:ed064c843c81b015d926bb",
-    measurementId: "G-KNN7RGHHH6"
+    //Add firebase files...
   }
 };
 
