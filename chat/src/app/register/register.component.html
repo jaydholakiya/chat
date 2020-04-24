@@ -1,0 +1,39 @@
+<div class="container register">
+    <div class="row">
+        <div class="col-md-3 register-left">
+            <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
+            <h3>Welcome to Chat App</h3>
+            <p>You are a few moments far for your journey...</p>
+        </div>
+            <div class="col-md-9 register-right">
+                <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <h3 class="register-heading">Join now!!!</h3>
+                    <form [formGroup]="registerForm" (ngSubmit)="onRegister($event)">
+                    <div class="row register-form">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input formControlName="firstName" type="text" class="form-control" placeholder="👤 First Name *" value="" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <input formControlName="lastName" type="text" class="form-control" placeholder="👤 Last Name *" value="" />
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input formControlName="email" type="email" class="form-control" placeholder="✉ Email *" value="" />
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input formControlName="password" type="password" class="form-control" placeholder="🔑 Password *" value="" />
+                            </div>
+                                <button type="submit" class="btnRegister">SignUp</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+    </div>
+</div>
